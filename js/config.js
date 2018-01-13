@@ -66,9 +66,9 @@ Place one or more images
 Multiple images will automatically shuffle between them
 (Place the files in the backgrounds/images folder)*/
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"https://github.com/CondorSunGod/ogfinalloadingscreen/blob/master/backgrounds/images/Walrus_pdp_screenhi_1920x1080_en_ww_Kamino_specials_v1.jpg",
+	"https://github.com/CondorSunGod/ogfinalloadingscreen/blob/master/backgrounds/images/star-wars-battlefront-2-kamino-clone-troopers-60.jpg",
+	"https://github.com/CondorSunGod/ogfinalloadingscreen/blob/master/backgrounds/images/star-wars-battlefront-2-theed-tank-e3-2017.jpg"
 ];
 
 /*(Image-background only)
@@ -96,11 +96,11 @@ var l_bgDarkening = 50;
 
 /*Play music during the loading screen?
 'true' or 'false'*/
-var l_music = true;
+var l_music = false;
 
 /*Display current music name?
 'true' or 'false'*/
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 /*Music playlist
 Add as many youtube ids or ogg files you want
